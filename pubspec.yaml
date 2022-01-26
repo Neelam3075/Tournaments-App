@@ -1,0 +1,40 @@
+name: bluestack_demo
+description: App to demonstrate skill related to development in Flutter
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Add this line
+    sdk: flutter
+
+
+    # The following section is specific to Flutter.
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  shared_preferences: ^2.0.12
+  http: ^0.13.4
+  shimmer: ^2.0.0
+  connectivity_plus: ^2.2.0
+  intl: ^0.17.0
+  cached_network_image: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+
+  assets:
+    - assets/images/
